@@ -5,13 +5,13 @@
 ![landing page](Screenshots/landing.PNG)
 
 ### Classic heightmap view
-![classic](Screenshots/landing.PNG)
+![classic](Screenshots/classic.PNG)
 
 ### Wireframe view
 ![wireframe](Screenshots/wireframe.PNG)
 
 ### Terrain vertices automatic colorization
-![terrain color](Screenshots/terrain.PNG)
+![terrain color](Screenshots/terrain.png)
 
 ### Height based vertices colorization
 ![height color](Screenshots/height-color.PNG)
