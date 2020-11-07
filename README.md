@@ -22,3 +22,5 @@
 ### Height based vertices colorization
 ![height color](Screenshots/height-color.PNG)
 
+You do need a local web server to run this web application, as CORS policy ask to.
+I recommand using [Python](https://docs.python.org/3/library/http.server.html "Python server documentation") or a [Node.js server](https://nodejs.org/en/docs/guides/getting-started-guide/ "NodeJS server documentation")
