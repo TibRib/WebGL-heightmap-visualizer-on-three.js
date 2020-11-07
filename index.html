@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Web App</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href='style.css'>
+    <link rel="stylesheet" href='animate.min.css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.js"></script>
+    <script src="OrbitControls.js"></script> <script src="dat.gui.min.js"></script>
+    <script src="MTLLoader.js"></script> <script src="OBJLoader.js"></script>
+
+    <script src="css-element-queries/src/ResizeSensor.js"></script>
+    <script src="css-element-queries/src/ElementQueries.js"></script>
+
+    <script src="carControl.js"></script>
+  </head>
+  <body>
+
+      <div class="container my-5 text-center justify-content-center">
+        <h1 class="animated fadeInUp display-3 text-white bounce">3D Viewer</h1>
+        <p class="animated fadeInUp lead text-white">Developped for viewing 3D scanned objects & terrains</p>
+        <section id="file-section" class="animated zoomIn delay-1s">
+        <hr class="my-2">
+        <div class="input-group" id="btncontainer">   
+          <div class="custom-file">
+            <input type="file" onchange='openFile(event)' class="custom-file-input" id="inputGroupFile01"
+              aria-describedby="inputGroupFileAddon01">
+            <label class="custom-file-label" for="inputGroupFile01">Select your image</label>
+          </div>
+        </div>
+      </section>
+
+        <!-- Image output -->
+        <img id='output'>
+        <canvas id="myCanvas"></canvas>
+
+
+          <p id="content" class="text-bright"></p>
+          <div id="div3DView"> </div>
+      </div>
+      
+      <script src="VR_modules/VRButton.js"></script>
+      <script src="app.js"></script>
+      <script src="script.js"></script>
+     
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

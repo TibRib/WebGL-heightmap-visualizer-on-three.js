@@ -1,0 +1,19 @@
+body{
+    background: rgb(21,23,46);
+    background: linear-gradient(90deg, rgba(21,23,46,1) 35%, rgba(40,87,122,1) 100%);
+}
+
+#btncontainer{
+    max-width: 550px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 0px 0px 6px rgb(5, 161, 227);
+}
+
+#div3DView{
+    max-width:  100%;
+    height: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 0px 0px 20px rgb(5, 161, 227);
+}
